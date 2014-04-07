@@ -1,0 +1,158 @@
+$column: 100px;
+$gutter: 5px;
+$grid-columns: 12;
+$max-width: 1660px;
+
+
+
+
+
+
+.ideus {
+	
+    
+	background-image:url("../images/ideus-wall.jpg");
+	 background-repeat:no-repeat;
+  
+	.btn-group {
+		margin-left: 220px;
+		margin-top: 0px;
+		.btn1 {
+			padding-top: 115px;
+			height: 170px;
+			width: 180px;
+			border: 0px;
+			border-radius: 0px 0px 5px 5px;
+			margin-left: 100px;
+			opacity: .7;
+			font-size: 24px;
+			font-family: serif, georgia;
+			font-weight: bold;
+			color: #1584ff;
+		
+
+		}
+	}
+
+	.hedline {
+		margin-left: 665px;
+		margin-top: 70px;
+		h1 {
+		font-family: serif, lucida;
+		font-size: 90px;
+		font-weight: bolder;
+		color: #1584ff;
+		letter-spacing: 20px;
+
+	}
+	}
+
+	 .logo {
+	 	  margin-left: 750px;
+	 	  margin-top: 30px;
+	 	img {
+	 		height: 200px;
+	 		width: 180px;
+	 	}
+	 }
+
+	 .tagline {
+	 	margin-left: 610px;
+	 	margin-top: 30px;
+	 	h2 {
+	 	   font-family: sans-serif, lucida;
+		   font-size: 34px;
+		   font-weight: bold;
+		   color: #1584ff;
+	 	}
+	 }
+
+	 .footer {
+	 	height: 620px;
+	 	width: 1525px;
+	 	border-radius: 10px 10px 10px 10px;
+	 	opacity: .9;
+	 	background-color: #cccccc;
+	 	margin-left: 100px;
+	 	margin-top: 80px;
+     
+       .btn-group2 {
+       	margin-top: 20px;
+       	.btn2 {
+       		height: 50px;
+       		width: 400px;
+       		margin-left: 80px;
+       		border-radius: 5px;
+       		background-color: #1584ff;
+       		color: white;
+       		font-size: 26px;
+       		margin-top: 30px;
+       		font-weight: bolder;
+       		padding-top: 5px;
+       	}
+       }
+
+       .pic1 {
+
+       	  img {
+       	  	width: 400px;
+       	  	height: 500px;
+       	  	margin-left: 80px;
+       	  	margin-top: 10px;
+       	  }
+       }
+
+        .pic2 {
+
+       	  img {
+       	  	width: 400px;
+       	  	height: 500px;
+       	  	margin-left: 565px;
+       	  	margin-top: -515px;
+       	  }
+       }
+	 }
+    
+	 
+ 
+	.column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column8 {
+       @include span-columns(8);
+    }
+
+    .column10 {
+       @include span-columns(10);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+    .column5 {
+       @include span-columns(5);
+    }
+
+    .column1 {
+       @include span-columns(1);
+    }
+
+    .column9 {
+       @include span-columns(9);
+    }
+
+
+}
