@@ -18,15 +18,15 @@ $max-width: 1660px;
 		margin-left: 220px;
 		margin-top: 0px;
 		.btn1 {
-			padding-top: 115px;
-			height: 170px;
+			padding-top: 15px;
+			height: 70px;
 			width: 180px;
 			border: 0px;
 			border-radius: 0px 0px 5px 5px;
 			margin-left: 100px;
 			opacity: .7;
 			font-size: 24px;
-			font-family: serif, georgia;
+			font-family: sans-serif, georgia;
 			font-weight: bold;
 			color: #1584ff;
 		
@@ -36,12 +36,13 @@ $max-width: 1660px;
 
 	.hedline {
 		margin-left: 665px;
-		margin-top: 70px;
+		margin-top: 170px;
 		h1 {
-		font-family: serif, lucida;
+		font-family: "Roboto", serif;
+
 		font-size: 90px;
 		font-weight: bolder;
-		color: #1584ff;
+		color: white;
 		letter-spacing: 20px;
 
 	}
@@ -63,18 +64,18 @@ $max-width: 1660px;
 	 	   font-family: sans-serif, lucida;
 		   font-size: 34px;
 		   font-weight: bold;
-		   color: #1584ff;
+		   color: white;
 	 	}
 	 }
 
-	 .footer {
-	 	height: 620px;
+	 .products {
+	 	height: 950px;
 	 	width: 1525px;
 	 	border-radius: 10px 10px 10px 10px;
 	 	opacity: .9;
 	 	background-color: #cccccc;
 	 	margin-left: 100px;
-	 	margin-top: 80px;
+	 	margin-top: 180px;
      
        .btn-group2 {
        	margin-top: 20px;
@@ -89,6 +90,8 @@ $max-width: 1660px;
        		margin-top: 30px;
        		font-weight: bolder;
        		padding-top: 5px;
+       		box-shadow: 6px 5px 5px 0px  rgba(0,5,5, .5);
+       		font-family: "Roboto", serif;
        	}
        }
 
@@ -99,6 +102,7 @@ $max-width: 1660px;
        	  	height: 500px;
        	  	margin-left: 80px;
        	  	margin-top: 10px;
+       	  	box-shadow: 6px 5px 5px 0px  rgba(0,5,5, .5);
        	  }
        }
 
@@ -109,9 +113,119 @@ $max-width: 1660px;
        	  	height: 500px;
        	  	margin-left: 565px;
        	  	margin-top: -515px;
+       	  	box-shadow: 6px 5px 5px 0px  rgba(0,5,5, .5);
        	  }
        }
-	 }
+
+        .pic3 {
+
+       	  img {
+       	  	width: 400px;
+       	  	height: 500px;
+       	  	margin-left: 1050px;
+       	  	margin-top: -560px;
+       	  	box-shadow: 6px 5px 5px 0px  rgba(0,5,5, .5);
+       	  	opacity: none;
+       	  }
+       }
+    }
+
+        .our-work {
+        	text-align: center;
+        	margin-top: 30px;
+        	h1 {
+        		font-weight: bolder;
+        		font-size: 50px;
+        		color: #1584ff;
+        		font-family: "Roboto", serif;
+
+        	}
+        	h3 {
+        		font-family: serif, georgia;
+        		padding-top: 20px;
+        		color: grey;
+        		font-family: "Roboto", serif;
+        	}
+        }
+
+       
+
+        .team {
+        	margin-top: 100px;
+        	width: 100%;
+        	height: 1100px;
+        	background: -webkit-linear-gradient(top, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 0%,rgba(137,195,235,1) 100%,rgba(213,235,251,1) 100%);
+            h1  {
+            	font-size: 44px;
+            	margin-left: 730px;
+            	margin-top: 40px;
+            	font-family: "Roboto", serif;
+            	color: white;
+            }
+        	.column6 {
+        		height: 300px;
+        		background-color: #d1d1d1;
+        		border-radius: 5px;
+        		width: 710px;
+        		margin-left: 70px;
+        		margin-top: 30px;
+        		box-shadow: 6px 5px 5px 0px  rgba(0,5,5, .5);
+                img {
+                	border-radius: 5px;
+                	height: 250px;
+                	width: 250px;
+                	margin-top: 25px;
+                	margin-left: 20px;
+                }
+                h2 {
+                	margin-top: -230px;
+                	margin-left: 390px;
+                	font-family: "Roboto", serif;
+                }
+                h3 {
+                	margin-left: 350px;
+                	font-family: "Roboto", serif;
+                }
+                a  {
+                	margin-left: 360px;
+                	font-size: 24px;
+                	margin-top: 10px;
+                }
+                h4 {
+                	margin-left: 320px;
+                	margin-top: 30px;
+                	font-family: "Roboto", serif;
+                }
+
+        	}
+        }
+
+        .footer {
+        	height: 300px;
+        	width: 100%;
+        	background: -webkit-linear-gradient(top, rgba(206,220,231,1) 1%,rgba(134,148,170,1) 100%);
+        	
+        	img {
+        		margin-left: 150px;
+        		margin-top: 60px;
+        	}
+
+        	.map {
+        		margin-left: 1150px;
+        		margin-top: -240px;
+        		text-align: center;
+        		img {
+        			height: 200px;
+        			width: 200px;
+        		}
+        	}
+        	h3 {
+        		font-family: "Roboto", serif;
+        		margin-right: 750px;
+                margin-top: -80px;
+                text-align: right;
+        	}
+        }
     
 	 
  
