@@ -1,4 +1,249 @@
+$column: 100px;
+$gutter: 5px;
+$grid-columns: 12;
+$max-width: 1660px;
+
+
 .expense-manager {
+
+	.page {
+	   background-image:url("../images/picjumbo.com_IMG_3750.jpg");
+	   background-repeat:no-repeat;
+	   -webkit-background-size: cover;
+       background-size: cover;
+       height: 900px;
+   }
+
+   .navbar {
+   	   .column {
+   	   height: 150px;
+   	  
+background: -webkit-linear-gradient(45deg, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); 
+   	}
+   	   img {
+   	   	height: 100px;
+   	   	width: 100px;
+   	   	margin-top: 20px;
+   	   	margin-left: 30px;
+   	   }
+   	   h1 {
+   	   	margin-top: 60px;
+   	   	margin-left: 30px;
+   	   	font-size: 92px;
+   	   	color: #00a1de;
+        font-family: 'Exo', sans-serif;
+        font-weight: bolder;
+   	   }
+   	   .btn-group1 {
+   	   	margin-top: 50px;
+   	   	    .btn1 {
+   	   	    	height: 50px;
+   	   	    	width: 133px;
+   	   	    	margin-left: 20px;
+   	   	    	font-size: 32px;
+   	   	    	color: grey;
+   	   	    	font-family: 'Exo', sans-serif;
+   	   	    	border: 0px;
+   	   	    	background-color: white;
+   	   	    	border-radius: 5px;
+   	   	    }
+   	   	    .btn2 {
+   	   	    	height: 50px;
+   	   	    	width: 133px;
+   	   	    	margin-left: 20px;
+   	   	    	font-size: 32px;
+   	   	    	color: white;
+   	   	    	font-family: 'Exo', sans-serif;
+   	   	    	border: 1px solid white;
+   	   	    	background-color: #8e807d;
+   	   	    	border-radius: 5px;
+   	   	    }
+   	   }
+   }
+
+         .headline {
+         	.btn-big {
+         		height: 150px;
+         		width: 750px;
+         		font-size: 70px;
+         		background-color: grey;
+         		 font-family: "Roboto", serif;
+         		color: white;
+                border: 0px;
+                border-radius: 10px;
+                opacity: .7;
+                margin-left: 50px;
+                margin-top: 50px;
+         	}
+         	.btn-big2 {
+         		height: 70px;
+         		width: 930px;
+         		font-size: 30px;
+         		background-color: grey;
+         		 font-family: "Roboto", serif;
+         		color: white;
+                border: 0px;
+                border-radius: 10px;
+                opacity: .7;
+                margin-left: 50px;
+                margin-top: -330px;
+         	}
+         	.btn-begin {
+         		height: 70px;
+         		width: 180px;
+         		border: 0px;
+         		border-radius: 7px;
+         		color: white;
+         		font-size: 40px;
+         		background-color: #00a1de;
+         		font-family: "Roboto", serif;
+         		margin-top: 390px;
+         		margin-left: 390px;
+         		opacity: .7;
+         		 box-shadow: 6px 5px 5px 0px  rgba(0,5,5, .5);
+         	}
+         }
+
+         .about {
+         	text-align: center;
+         	margin-top: 150px;
+         	
+
+         	h2 {
+               font-family: "Roboto", serif;
+               color: black;
+         	}
+         	h3 {
+               
+               color: grey;
+               margin-top: 20px;
+               font-weight: normal;
+         	}
+         	img {
+         		height: 300px;
+         		width: 1200px;
+         		margin-top: 40px;
+         	}
+         }
+
+         .charts {
+         	margin-top: 150px;
+         	 background-image:url("../images/grey-pat.jpg");
+	        background-repeat:no-repeat;
+	        height: 400px;
+	        width: 1700px;
+	        margin-left: 65px;
+	        .picture {
+	        	margin-left: 60px;
+	        	margin-top: 50px;
+	        	height: 300px;
+	        	width: 440px;
+	        	background-color: white;
+	        }
+	        h2 {
+	        	font-family: "Roboto", serif;
+               color: white;
+               margin-top: 50px;
+	        }
+	        h3 {
+	        	font-family: "Roboto", serif;
+               color: white;
+               margin-top: 35px;
+               font-weight: normal;
+	        }
+         }
+
+         .wallet {
+         	margin-top: 150px;
+         	img {
+         		height: 500px;
+         		width: 600px;
+         	}
+         	 h2 {
+	        	font-family: "Roboto", serif;
+               color: black;
+               margin-top: 100px;
+	        }
+	        h3 {
+	        
+               color: grey;
+               margin-top: 35px;
+               font-weight: normal;
+	        }
+         }
+
+         .footer {
+         	height: 215px;
+         	background-color: grey;
+         	margin-top: 150px;
+         	background-color: #778790;
+         	h3 {
+         		color: white;
+         		font-family: sans-serif, georgia;
+         		margin-top: 25px;
+         		margin-left: 150px;
+         	}
+         	h4 {
+         		color: white;
+         		font-family: sans-serif, georgia;
+         		font-weight: normal;
+         		margin-left: 150px;
+
+         	}
+         	h2 {
+         		color: white;
+         		margin-top: 85px;
+         		margin-left: 200px;
+         	}
+         }
 	
+	
+  
+
+
+
+	.column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column8 {
+       @include span-columns(8);
+    }
+
+    .column10 {
+       @include span-columns(10);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+    .column5 {
+       @include span-columns(5);
+    }
+
+    .column1 {
+       @include span-columns(1);
+    }
+
+    .column9 {
+       @include span-columns(9);
+    }
+
+    .column7 {
+       @include span-columns(7);
+    }
+
 	
 }
