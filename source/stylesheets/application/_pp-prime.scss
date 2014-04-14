@@ -1,0 +1,280 @@
+$column: 100px;
+$gutter: 10px;
+$grid-columns: 12;
+$max-width: 1660px;
+
+
+.pp-prime {
+
+     .column {
+   
+
+       	    .header {
+       	    	  background-image:url("../images/fields.jpg");
+       	    background-repeat:no-repeat;
+       	    height: 970px;
+       	    }
+       	}
+
+       	.column3 {
+       		img {
+       			height: 80px;
+       			width: 80px;
+       			margin-top: 30px;
+       		}
+       		h1 {
+       			font-family: 'Roboto', sans-serif;
+       			margin-left: 100px;
+       			margin-top: -54px;
+       			font-size: 32px;
+       			color: #0065bd;
+
+       		}
+       	}
+
+       	.btn-group {
+
+       		.btn1 {
+       			font-family: 'Allerta', sans-serif;
+       			height: 60px;
+       			width: 200px;
+       			border: 0px;
+       			font-size: 32px;
+       			color: #72c7e7;
+       			background-color: transparent;
+       			margin-left: 2px;
+       			margin-top: 35px;
+
+       		}
+
+       		.btn2 {
+       			font-family: 'Allerta', sans-serif;
+       			height: 60px;
+       			width: 200px;
+       			border: 0px;
+       			font-size: 32px;
+       			color: #0065bd;
+       			margin-left: 2px;
+       			margin-top: 35px;
+       			background-color: rgba(0,0,0,0.05);
+
+       		}
+       	}
+
+       	.headline {
+       		width: 800px;
+       		height: 150px;
+       		background-color: rgba(0,0,0,0.20);
+       		padding: auto;
+       		margin-top: 200px;
+       		h2 {
+       			font-size: 80px;
+       			font-family: 'Allerta', sans-serif;
+       			color: white;
+       			padding-top: 50px;
+       			margin-left: 135px;
+       			
+
+       		}
+       	}
+
+       	.tagline {
+       		width: 1200px;
+       		height: 70px;
+       		background-color: rgba(0,0,0,0.20);
+       		margin-top: 30px;
+       		h3 {
+       			font-size: 30px;
+       			font-family: 'Allerta', sans-serif;
+       			color: white;
+       			margin-left: 135px;
+       			padding-top: 12px;
+                font-weight: normal;
+       		}
+       	}
+
+       	.options {
+       		margin-left: 135px;
+       		margin-top: 30px;
+       		.btn2 {
+       			color: white;
+       			font-size: 24px;
+                border: 0px;
+                background-color: transparent;
+                height: 50px;
+                font-family: 'Allerta', sans-serif;
+                font-weight: 300;
+       		}
+       		i {
+       			margin-right: 25px;
+       			padding-top: 10px;
+       		}
+       	}
+
+       		.options2 {
+       		margin-left: 135px;
+       		margin-top: -18px;
+       		.btn2 {
+       			color: white;
+       			font-size: 24px;
+                border: 0px;
+                background-color: transparent;
+                height: 50px;
+                font-family: 'Allerta', sans-serif;
+       		}
+       		i {
+       			margin-right: 25px;
+       			padding-top: 10px;
+       		}
+       	}
+
+       		.options3 {
+       		margin-left: 135px;
+       		margin-top: -18px;
+       		.btn2 {
+       			color: white;
+       			font-size: 24px;
+                border: 0px;
+                background-color: transparent;
+                height: 50px;
+                font-family: 'Allerta', sans-serif;
+       		}
+       		i {
+       			margin-right: 25px;
+       			padding-top: 10px;
+       		}
+       	}
+
+       		.options4 {
+       		margin-left: 135px;
+       		margin-top: -18px;
+       		.btn2 {
+       			color: white;
+       			font-size: 24px;
+                border: 0px;
+                background-color: transparent;
+                height: 50px;
+                font-family: 'Allerta', sans-serif;
+       		}
+       		i {
+       			margin-right: 25px;
+       			padding-top: 10px;
+       		}
+       	}
+
+       	.btn3 {
+       		height: 70px;
+       		width: 250px;
+       		background-color: #0065bd;
+       		font-family: 'Allerta', sans-serif;
+       		border: 0px;
+       		margin-left: 1220px;
+       		font-size: 42px;
+       		color: white;
+       		margin-top: 100px;
+       		box-shadow: 6px 5px 5px 0px  rgba(0,0,0, .3);
+       	}
+
+       	.body1 {
+       		height: 450px;
+       		background-color: #999999;
+       		text-align: center;
+       		h1 {
+       			color: white;
+       			font-family: 'Allerta', sans-serif;
+                font-weight: normal;
+                padding-top: 70px;
+       		}
+       		.horline {
+       			width: 1100px;
+       			height: 2px;
+       			border-bottom: 2px solid #d4d4d4;
+       			border-top: 2px solid #616161;
+       			margin-left: 300px;
+       			margin-top: 40px;
+       		}
+       		.text {
+       			width: 1400px;
+       			text-align: center;
+       			margin-top: 30px;
+       			p {
+       				font-size: 26px;
+       				color: white;
+       				margin-left: 300px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: normal;
+       			}
+       		}
+       		.btn4 {
+       			height: 40px;
+       			width: 130px;
+       			border: 0px;
+       			border-radius: 4px;
+       			font-size: 22px;
+       			color: white;
+       			background-color: #0065bd;
+       			margin-top: 15px;
+       		}
+       	}
+
+       	.body2 {
+       		height: 450px;
+       		background: -webkit-linear-gradient(45deg, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 37%,rgba(152,176,217,1) 100%);
+            img {
+            	height: 500px;
+            	width: 650px;
+            	margin-top: 0px;
+            	margin-left: 100px;
+            }
+       	}
+
+
+     
+	
+
+
+
+	.column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column8 {
+       @include span-columns(8);
+    }
+
+    .column10 {
+       @include span-columns(10);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+    .column5 {
+       @include span-columns(5);
+    }
+
+    .column1 {
+       @include span-columns(1);
+    }
+
+    .column9 {
+       @include span-columns(9);
+    }
+
+    .column7 {
+       @include span-columns(7);
+    }
+
+}
